@@ -1,0 +1,12 @@
+[package]
+name = "dxlspy"
+version = "0.1.0"
+edition = "2024"
+description = "Passive sniffer for Robotis Dynamixel buses (Protocol v1 and v2)"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+owo-colors = "4"
+serialport = "4"
